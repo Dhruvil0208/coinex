@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Search from '../assets/svg/search'
-
+import {ConnectButton} from 'web3uikit'
 const styles = {
     navLink: `text-white flex mx-[10px]`,
     badge: `rounded-full bg-blue-600 h-1 w-1 absolute bottom-5 right-0 top-1 ring-4`,
@@ -64,7 +64,7 @@ const Header = () => {
         </nav>
 
         <div className='flex items-center'>
-          {/*<ConnectBuuton/> */}
+          <ConnectButton/>
           <div className={styles.inputContainer}>
             <Search/>
             <input className={styles.input} placeholder='Search' />
