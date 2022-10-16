@@ -1,6 +1,6 @@
 import React from 'react'
 import MoreButton from './moreButton'
-import TrendingCardRow from './trendingCardRow'
+import TrendingCardRow from './TrendingCardRow'
 import Image from 'next/image'
 
 const styles = {
